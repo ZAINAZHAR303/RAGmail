@@ -4,7 +4,7 @@ Vector store setup using ChromaDB for RAGmail system.
 
 from typing import List, Optional
 from pathlib import Path
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from src.document_loader import RAGmailDocumentLoader
