@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
+from contextlib import asynccontextmanager
 import sys
 import os
 
@@ -10,7 +11,24 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from src.email_generator import EmailGenerator
 
-app = FastAPI(title="RAGmail API", version="1.0.0")
+# Initialize email generator
+email_generator = None
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan event handler for startup and shutdown"""
+    global email_generator
+    try:
+        email_generator = EmailGenerator()
+        print("✓ RAGmail Email Generator initialized successfully!")
+    except Exception as e:
+        print(f"✗ Failed to initialize Email Generator: {str(e)}")
+        raise
+    yield
+    # Cleanup on shutdown
+    email_generator = None
+
+app = FastAPI(title="RAGmail API", version="1.0.0", lifespan=lifespan)
 
 # Configure CORS
 app.add_middleware(
