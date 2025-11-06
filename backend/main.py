@@ -30,11 +30,11 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="RAGmail API", version="1.0.0", lifespan=lifespan)
 
-# Configure CORS
+# Configure CORS - Allow all origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],  # Next.js
-    allow_credentials=True,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=False,  # Must be False when using "*"
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
     expose_headers=["*"],
