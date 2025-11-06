@@ -6,7 +6,7 @@ Loads and chunks projects, achievements, skills, and other background data.
 import json
 from pathlib import Path
 from typing import List, Dict
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 
 class RAGmailDocumentLoader:
