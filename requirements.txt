@@ -1,0 +1,8 @@
+langchain==0.3.7
+langchain-groq==0.2.1
+langchain-community==0.3.5
+chromadb==0.5.20
+openai==1.54.5
+python-dotenv==1.0.1
+tiktoken==0.8.0
+sentence-transformers==3.3.1
