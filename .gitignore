@@ -1,0 +1,22 @@
+# Environment
+.env
+venv/
+myenv/
+*.pyc
+__pycache__/
+
+# Vector DB
+chroma_db/
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+generated_emails/
+*.log
