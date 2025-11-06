@@ -4,5 +4,5 @@ langchain-community
 chromadb
 openai
 python-dotenv
-tiktoken==0.8.0
+tiktoken
 sentence-transformers==3.3.1
