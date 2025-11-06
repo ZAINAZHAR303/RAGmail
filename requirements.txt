@@ -1,6 +1,6 @@
 langchain
 langchain-groq
-langchain-community==0.3.5
+langchain-community
 chromadb==0.5.20
 openai==1.54.5
 python-dotenv==1.0.1
