@@ -1,7 +1,7 @@
 langchain
 langchain-groq
 langchain-community
-chromadb==0.5.20
+chromadb
 openai==1.54.5
 python-dotenv==1.0.1
 tiktoken==0.8.0
