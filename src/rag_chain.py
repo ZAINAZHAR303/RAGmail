@@ -6,8 +6,8 @@ import os
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema import Document
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.documents import Document
 from src.vector_store import RAGmailVectorStore
 
 load_dotenv()
