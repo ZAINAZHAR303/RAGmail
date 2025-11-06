@@ -1,12 +1,27 @@
-# Environment
+# Python Environment
 .env
+backend/.env
 venv/
 myenv/
+backend/venv/
 *.pyc
 __pycache__/
 
+# Node.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+
+# Environment files
+.env.local
+.env.production
+frontend/.env.local
+frontend/.env.production
+
 # Vector DB
 chroma_db/
+backend/chroma_db/
 *.db
 
 # IDE
@@ -19,4 +34,10 @@ Thumbs.db
 
 # Output
 generated_emails/
+backend/generated_emails/
 *.log
+
+# Build outputs
+dist/
+build/
+.turbo/
