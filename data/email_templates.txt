@@ -72,7 +72,7 @@ Use when: Specific paper available, HireFlow project aligns with research
 
 Dear Dr. [Last Name],
 
-I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am eager to contribute to research under your supervision in the field of [Domain Name] as a prospective graduate student at [University Name].
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am eager to contribute to research under your supervision  as a prospective graduate student at [University Name].
 
 I was particularly interested in your recent paper, "[Paper Name]," which addresses [key purpose of paper]. Recently, I developed HireFlow, an AI-powered job application platform during a local hackathon, utilizing LangChain and LangGraph to create multi-agent systems. The platform features intelligent resume tailoring with Google Gemini AI, automated interview preparation, and semantic job matching, demonstrating my practical experience in building production-ready AI applications that align with [relate to professor's research area, e.g., "natural language processing" or "intelligent systems"].
 
