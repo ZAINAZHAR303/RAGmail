@@ -1,0 +1,95 @@
+EMAIL TEMPLATES
+===============
+
+IMPORTANT: These elements should remain CONSISTENT across all emails:
+
+SUBJECT LINE:
+Prospective Graduate Student | IELTS 7.0 | BSCS: CGPA (3.37/4.00) | SL@ Stanford CIP | 10X International Hackathons
+
+INTRODUCTION (Standard Opening):
+Dear Dr. [Professor's Name],
+
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am [interested/eager to contribute] in pursuing graduate research under your supervision at [University Name].
+
+HIGHLIGHTS SECTION (Must appear in EVERY email - FIXED):
+A few highlights from my profile:
+- Selected as Section Leader at Stanford University's Code in Place over 17,000+ global applicants to teach Python Programming.
+- Winner, Harvard CS50 Puzzle Day 2025
+- Participant in 10+ international AI hackathons (Lablab.ai)
+- Ranked 99th globally at M{IT}2 Informatics Tournament 2025
+- Ranked participant in Meta Hacker Cup 2024 (13k+ competitors)
+- Voluntarily taught 30+ hours of Web Development and IELTS to underprivileged students.
+
+CLOSING (Standard):
+I have attached my CV and relevant documents for your review. I would be truly grateful for an opportunity to discuss how my background and research interests could align with your group's ongoing projects.
+
+Best regards,
+Zain Azhar
+
+---
+
+TEMPLATE 1: Generic Email (No Specific Paper)
+----------------------------------------------
+Use when: No specific paper reference available
+
+Dear Dr. [Professor's Name],
+
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am very interested in pursuing graduate research under your supervision at [University Name], particularly in the areas of [research areas - e.g., artificial intelligence, machine learning, and computer vision].
+
+My academic background and project experience revolve around developing intelligent systems that integrate AI and IoT technologies. For instance, my final-year project focuses on an AI-powered plant disease detection and soil analysis system, which has strengthened my skills in deep learning, image processing, and data-driven modeling.
+
+[FIXED HIGHLIGHTS SECTION]
+
+I have attached my CV and relevant documents for your review. I would be truly grateful for an opportunity to discuss how my background and research interests could align with your group's ongoing projects.
+
+Best regards,
+Zain Azhar
+
+---
+
+TEMPLATE 2: Paper-Referenced Email (Generic Project Alignment)
+---------------------------------------------------------------
+Use when: Specific paper available, using general project alignment
+
+Dear Dr. [Full Name],
+
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am eager to contribute to research under your supervision in the field of [Domain Name] as a prospective graduate student at [University Name].
+
+I was particularly interested in your recent paper, "[Paper Name]," which addresses [key purpose of paper]. During a local hackathon, I worked on [explain what you did, and how it aligns with the paper's research].
+
+[FIXED HIGHLIGHTS SECTION]
+
+I have attached my CV and relevant documents for your review. I would be happy to arrange a virtual meeting at your convenience.
+
+Best regards,
+Zain Azhar
+
+---
+
+TEMPLATE 3: Paper-Referenced Email (HireFlow Example)
+------------------------------------------------------
+Use when: Specific paper available, HireFlow project aligns with research
+
+Dear Dr. [Last Name],
+
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am eager to contribute to research under your supervision in the field of [Domain Name] as a prospective graduate student at [University Name].
+
+I was particularly interested in your recent paper, "[Paper Name]," which addresses [key purpose of paper]. Recently, I developed HireFlow, an AI-powered job application platform during a local hackathon, utilizing LangChain and LangGraph to create multi-agent systems. The platform features intelligent resume tailoring with Google Gemini AI, automated interview preparation, and semantic job matching, demonstrating my practical experience in building production-ready AI applications that align with [relate to professor's research area, e.g., "natural language processing" or "intelligent systems"].
+
+[FIXED HIGHLIGHTS SECTION]
+
+I've included the link to my CV and relevant documents for your review. I would be happy to arrange a virtual meeting at your convenience.
+
+Best regards,
+Zain Azhar
+
+---
+
+VARIABLE SECTIONS (To be filled by RAG system):
+- [Professor's Name] / [Full Name] / [Last Name]
+- [University Name]
+- [Domain Name] / [Research Areas]
+- [Paper Name]
+- [key purpose of paper]
+- [Project alignment paragraph] - THIS IS WHERE RAG RETRIEVES THE BEST MATCHING PROJECT
+- [relate to professor's research area]
