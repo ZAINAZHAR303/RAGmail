@@ -34,7 +34,7 @@ Use when: No specific paper reference available
 
 Dear Dr. [Professor's Name],
 
-I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am very interested in pursuing graduate research under your supervision at [University Name], particularly in the areas of [research areas - e.g., artificial intelligence, machine learning, and computer vision].
+I hope this message finds you well. My name is Zain Azhar, and I am a final-year Computer Science undergraduate at the University of Agriculture Faisalabad. I am very interested in pursuing graduate research under your supervision at [University Name]
 
 My academic background and project experience revolve around developing intelligent systems that integrate AI and IoT technologies. For instance, my final-year project focuses on an AI-powered plant disease detection and soil analysis system, which has strengthened my skills in deep learning, image processing, and data-driven modeling.
 
