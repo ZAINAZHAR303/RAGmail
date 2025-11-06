@@ -43,13 +43,14 @@ Key Features:
 Research Keywords: {', '.join(project['research_keywords'])}
 """
             
+            # ChromaDB metadata must be strings, numbers, or booleans (no lists)
             metadata = {
                 "source": "projects",
                 "project_id": project['id'],
                 "title": project['title'],
                 "type": project['type'],
-                "domains": project['domain'],
-                "keywords": project['research_keywords']
+                "domains": ', '.join(project['domain']),  # Convert list to string
+                "keywords": ', '.join(project['research_keywords'])  # Convert list to string
             }
             
             if 'github' in project:
