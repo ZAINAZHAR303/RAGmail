@@ -3,6 +3,6 @@ langchain-groq
 langchain-community
 chromadb
 openai
-python-dotenv==1.0.1
+python-dotenv
 tiktoken==0.8.0
 sentence-transformers==3.3.1
