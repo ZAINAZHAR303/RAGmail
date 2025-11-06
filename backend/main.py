@@ -24,9 +24,8 @@ app.add_middleware(
 # Initialize email generator
 email_generator = None
 
-@app.on_event("startup")
-async def startup_event():
-    """Initialize the email generator on startup"""
+async def lifespan(app: FastAPI):
+    """Lifespan event handler for startup and shutdown"""
     global email_generator
     try:
         email_generator = EmailGenerator()
@@ -34,6 +33,11 @@ async def startup_event():
     except Exception as e:
         print(f"✗ Failed to initialize Email Generator: {str(e)}")
         raise
+    yield
+    # Cleanup on shutdown
+    email_generator = None
+
+app = FastAPI(title="RAGmail API", version="1.0.0", lifespan=lifespan)
 
 class ProfessorRequest(BaseModel):
     professor_name: str
